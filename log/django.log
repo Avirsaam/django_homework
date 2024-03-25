@@ -1,4 +1,26 @@
 Watching for file changes with StatReloader
-"GET /game/random HTTP/1.1" 200 2
-"GET /game/random HTTP/1.1" 200 2
-"GET /game/random HTTP/1.1" 200 2
+"GET /homework/ HTTP/1.1" 200 779
+"GET /homework/about HTTP/1.1" 200 1293
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /homework/ HTTP/1.1" 200 779
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /homework/ HTTP/1.1" 200 779
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /homework/ HTTP/1.1" 200 779
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /homework/ HTTP/1.1" 200 779
+"GET /homework/about HTTP/1.1" 200 1293
+"GET /homework/about HTTP/1.1" 200 1293
+"GET /homework/ HTTP/1.1" 200 779
+"GET /homework/ HTTP/1.1" 200 779
+"GET /homework/about HTTP/1.1" 200 1293

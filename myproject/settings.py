@@ -32,13 +32,28 @@ ALLOWED_HOSTS = [
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {process} {thread} {message}', 
+            'style': '{',
+            },
+        'simple': {
+            'format': '%(levelname)s %(message)s',
+        },
+    },
     "handlers": {
         "console": {
             "class": "logging.StreamHandler",
+            "formatter": "simple",
         },
         "file": {
             "class": "logging.FileHandler",
             "filename": "log/django.log",
+        },
+        "file_homework": {
+            "class": "logging.FileHandler",
+            "filename": "log/homework.log",
+            "formatter": "verbose",
         },
     },
     "loggers": {
@@ -48,6 +63,11 @@ LOGGING = {
         },
         "gameapp": {
             "handlers": ["console"],
+            "level": "DEBUG",
+            "propagate": True,
+        },
+        "homeworkapp": {
+            "handlers": ["console", "file_homework"],
             "level": "DEBUG",
             "propagate": True,
         },
