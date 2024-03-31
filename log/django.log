@@ -24,3 +24,35 @@ Watching for file changes with StatReloader
 "GET /homework/ HTTP/1.1" 200 779
 "GET /homework/ HTTP/1.1" 200 779
 "GET /homework/about HTTP/1.1" 200 1293
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2276
+Not Found: /game/head_or_tail/
+"GET /game/head_or_tail/ HTTP/1.1" 404 2936
+Not Found: /favicon.ico
+"GET /game/head_or_tail HTTP/1.1" 200 10
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /game/head_or_tail HTTP/1.1" 301 0
+"GET /game/head_or_tail/ HTTP/1.1" 200 10
+Not Found: /favicon.ico
+"GET /game/head_or_tail/ HTTP/1.1" 200 10
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
