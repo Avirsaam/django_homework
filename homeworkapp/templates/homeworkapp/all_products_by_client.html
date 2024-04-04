@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}
+
+<div>    
+    <center>
+    <h3>
+        {{ client.name }}, товары за последние {{ days }} дней
+    </h3>
+    <table>        
+        {% if products %}
+        <thead>            
+            <tr>
+                <th scope="col">Наименование товара</th>
+                <th scope="col">Дата/время заказа</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product, last_date in products.items %}                
+                <tr>
+                    <td>{{ product }}</td>
+                    <td>{{ last_date|date:"d-m-Y" }}</td>
+                    
+                </tr>                
+            {% endfor %}
+        {% else %}
+                <tr>
+                    <td>
+                        За указанный период ничего не было заказано
+                    </td>
+                </tr>
+        {% endif %}
+        </tbody>        
+    </table>
+    
+    
+        <h3>
+            Показать товары за:
+            <a href={% url "products_by_client" client.id 7 %}>неделю,</a>
+            <a href={% url "products_by_client" client.id 30 %}> месяц,</a>
+            <a href={% url "products_by_client" client.id 365 %}> год.</a>
+        </h3>
+            <hr>
+        <a href={% url "all_clients" %}>Назад, к списку клиентов</a>
+    </center>
+</div>
+
+{% endblock content %}

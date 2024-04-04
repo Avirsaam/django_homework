@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 from homeworkapp.models import Product, Client, Order
 from random import choice, randint
-
+from datetime import date, timedelta
 class Command(BaseCommand):
     help = "Заполнить базу клиентами"
     
@@ -18,7 +18,9 @@ class Command(BaseCommand):
             client = Client(name=f'{choice(names)} {choice(surnames)}', 
                             email=f'email{i}@example.com', 
                             phone=f'+7-{randint(900, 990)}-{randint(100,999)}-{randint(10,99)}-{randint(10,99)}',
-                            address=f'Адрес {i}')
+                            address=f'Адрес {i}',
+                            created=date(2014, 1, 1) + timedelta(days=randint(1, 3650)))
+            
             client.save()
             self.stdout.write(f'{client}')
         

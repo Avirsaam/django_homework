@@ -5,10 +5,13 @@ class Client(models.Model):
     email = models.EmailField(max_length=254)
     phone = models.CharField(max_length=15)
     address = models.CharField(max_length=254)
-    created = models.DateField(auto_now_add=True)    
+    created = models.DateField()    
     
     def __str__(self):
         return f'Клиент: Имя: {self.name}, телефон:{self.phone}\n\t эл.почта: {self.email}\n\t адрес: {self.address}\n'
+    
+    def get_total_orders(self):
+        return Order.objects.filter(client=self).count()
     
 
 class Product(models.Model):
@@ -16,7 +19,7 @@ class Product(models.Model):
     description = models.TextField()
     price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
-    last_updated = models.DateField(auto_now=True)
+    last_updated = models.DateField()
     
     def __str__(self):
         return f'{self.name}, price: {self.price}, stock: {self.stock}\n'
@@ -25,7 +28,7 @@ class Product(models.Model):
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product)
-    created = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField()    
     
     def total(self):
         return sum(product.price for product in self.products.all())

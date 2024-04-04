@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock title %}
+
+{% block content %}    
+<div>
+    {% if clients.count > 0 %}    
+    <table>
+        <caption>
+            Нажми на имя клиента чтобы посмотреть на товары, заказанные им
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Имя клиента</th>
+                <th scope="col">Количество заказов</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for client in clients %}                
+                <tr>
+                    <td>
+                        {% if client.get_total_orders %}
+                            <a href={% url "products_by_client" client.id 365 %}>{{ client.name }}</a>
+                        {% else %}
+                            {{ client.name }}
+                        {% endif %}
+                    </td>
+                    <td>{{ client.get_total_orders }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Всего заказов</th>
+                <td>{{ total_orders }}</td>
+            </tr>
+        </tfoot>
+    </table>
+    {% else %}
+        <h1>Клиентов в базе не обнаружено</h1>
+    {% endif %}
+</div>
+{% endblock content %}

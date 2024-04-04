@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 from homeworkapp.models import Product, Client, Order
 from random import choice, randint
-
+from datetime import datetime, timedelta
 class Command(BaseCommand):
     help = "Заполнить базу заказами"
     
@@ -15,7 +15,12 @@ class Command(BaseCommand):
         clients = Client.objects.all()
                         
         for _ in range(count+1):            
-            order = Order(client=choice(clients))
+            order = Order(client=choice(clients),
+                          created=datetime.now() - timedelta(days=randint(10,60), 
+                                                             hours=randint(1,24),
+                                                             minutes=randint(0, 60),
+                                                             seconds=randint(0,60))
+                          )            
             order.save()
         
         orders = Order.objects.all()

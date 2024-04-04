@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from .views import index, about
+from .views import index, AboutView, AllClientsView, ProductsByClient
 
 urlpatterns = [    
     path('', index, name='index'),
-    path('about', about, name='about'),
+    path('about', AboutView.as_view(), name='about'),
+    path('all_clients/', AllClientsView.as_view(), name='all_clients'),
+    path('products_by_client/<int:client_id>/<int:days>/', ProductsByClient.as_view(), name='products_by_client'),
 ]
