@@ -1,0 +1,116 @@
+.container {
+	display: flex;
+  flex-wrap: wrap;
+  width: 100%;  
+  gap: 10px;  
+  justify-content: center;
+  
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+.small{
+  font:
+    0.7rem 'Fira Sans';  
+}
+
+input,
+textarea,
+select,
+label {
+  margin: 0.4rem 0;
+  width: 80%
+}
+
+select{
+  margin-bottom: 2rem;
+  padding-block: 1rem    
+}
+
+a {
+  color: #5165ff;
+}
+
+h1 {
+  color: #C26356;  
+  font:
+    2rem 'Fira Sans',
+    sans-serif;
+}
+
+p,
+li {
+  color: #1a5350;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody>tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+

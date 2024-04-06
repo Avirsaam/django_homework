@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} {% endblock title %}
+
+{% block content %}
+
+    {% csrf_token %}
+    <div class='container'>   
+        <div id='item-0'>
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form }}                            
+                <input type="submit" value="{{ button_caption }}">
+            </form>
+        </div>       
+        
+        <div id='item-0'>    
+            <img class='fit-picture' src="{{ product_image_url }}" >
+            <figcaption>{{ product_filename }}</figcaption>
+        </div>
+    </div>
+
+{% endblock content %}
