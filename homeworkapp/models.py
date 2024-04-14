@@ -8,7 +8,7 @@ class Client(models.Model):
     created = models.DateField()    
     
     def __str__(self):
-        return f'Клиент: Имя: {self.name}, телефон:{self.phone}\n\t эл.почта: {self.email}\n\t адрес: {self.address}\n'
+        return f'{self.name}, телефон:{self.phone}\n'
     
     def get_total_orders(self):
         return Order.objects.filter(client=self).count()
@@ -23,13 +23,19 @@ class Product(models.Model):
     image = models.ImageField(blank=True)
     
     def __str__(self):
-        return f'{self.name}, price: {self.price}, stock: {self.stock}\n'
+        return f'{self.name.capitalize()}, price: {self.price}, stock: {self.stock}\n'
     
     
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product)
-    created = models.DateTimeField()    
+    created = models.DateTimeField()  
+    
+    def client_name(self):
+        return self.client.name
+    
+    def ordered_items(self):
+        return self.products.all().count() 
     
     def total(self):
         return sum(product.price for product in self.products.all())
@@ -37,6 +43,7 @@ class Order(models.Model):
     def __str__(self):
         list_of_products = ', '.join(product.name for product in self.products.all())
         return f'Заказ:\tКлиент - {self.client.name}\n\tСписок товаров: {list_of_products},\n\tСтоимость заказа: {self.total()}\n\n'
+        
     
     
     

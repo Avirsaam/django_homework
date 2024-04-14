@@ -6088,3 +6088,1682 @@ Not Found: /favicon.ico
 "POST /homework/edit_product/47 HTTP/1.1" 302 0
 "GET /homework/edit_product/47 HTTP/1.1" 200 4040
 "GET /media/12chair.jpg HTTP/1.1" 200 2896
+Watching for file changes with StatReloader
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+"GET /static/admin/css/base.css HTTP/1.1" 200 19513
+"GET /static/admin/css/login.css HTTP/1.1" 200 939
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2561
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3326
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /
+"GET / HTTP/1.1" 404 2510
+"GET /admin/ HTTP/1.1" 200 3326
+"GET /admin/auth/user/add/ HTTP/1.1" 200 6875
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288550
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 17540
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /admin/auth/user/add/ HTTP/1.1" 200 6875
+"GET /admin/ HTTP/1.1" 200 3635
+"GET /admin/auth/user/ HTTP/1.1" 200 8224
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"POST /admin/auth/user/ HTTP/1.1" 200 4520
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 7975
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/add/ HTTP/1.1" 200 6875
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 200 7151
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/ HTTP/1.1" 200 8233
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/ HTTP/1.1" 200 4529
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 7975
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/add/ HTTP/1.1" 200 6875
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 200 7061
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 200 7045
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 200 7045
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/ HTTP/1.1" 200 10188
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/add/ HTTP/1.1" 200 6875
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/add/ HTTP/1.1" 200 7106
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/ HTTP/1.1" 200 11367
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/12/change/ HTTP/1.1" 200 17355
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/ HTTP/1.1" 200 11367
+"GET /admin/auth/user/12/change/ HTTP/1.1" 200 17355
+"GET /admin/auth/user/ HTTP/1.1" 200 11367
+"GET /admin/auth/user/10/change/ HTTP/1.1" 200 17355
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/gameapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 11883
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/10/change/ HTTP/1.1" 200 17871
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/group/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7749
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/group/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7892
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/10/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12111
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/logout/ HTTP/1.1" 200 1529
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3976
+"GET /admin/gameapp/coin/ HTTP/1.1" 200 26849
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/ HTTP/1.1" 200 3976
+"GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3976
+"GET /admin/logout/ HTTP/1.1" 200 1529
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6857
+"GET /admin/gameapp/coin/ HTTP/1.1" 200 26844
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/ HTTP/1.1" 200 6857
+"GET /admin/gameapp/coin/add/ HTTP/1.1" 200 5520
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/ HTTP/1.1" 200 6857
+"GET /admin/auth/user/ HTTP/1.1" 200 11910
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/10/change/ HTTP/1.1" 200 17968
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/ HTTP/1.1" 200 11910
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/blogapp/apps.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 13014
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/ HTTP/1.1" 200 9992
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/ HTTP/1.1" 200 13014
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 9906
+"GET /admin/auth/user/ HTTP/1.1" 200 14162
+"GET /admin/ HTTP/1.1" 200 9906
+"GET /admin/auth/group/ HTTP/1.1" 200 7520
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/group/add/ HTTP/1.1" 200 12717
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 8877
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/group/add/ HTTP/1.1" 200 12717
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 9092
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/group/add/ HTTP/1.1" 200 12717
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 9306
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/group/1/change/ HTTP/1.1" 200 13025
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/group/1/change/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 9308
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/group/2/change/ HTTP/1.1" 200 13043
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 9310
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/group/2/change/ HTTP/1.1" 200 13047
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 9310
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/ HTTP/1.1" 200 14626
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/10/change/ HTTP/1.1" 200 20365
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/10/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14800
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/logout/ HTTP/1.1" 200 1529
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7027
+"GET /admin/gameapp/coin/ HTTP/1.1" 200 29103
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/ HTTP/1.1" 200 7027
+"GET /admin/logout/ HTTP/1.1" 200 1529
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9956
+"GET /admin/auth/user/ HTTP/1.1" 200 14599
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/10/change/ HTTP/1.1" 200 20329
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/10/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14800
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/logout/ HTTP/1.1" 200 1529
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3740
+"GET /admin/blogapp/author/ HTTP/1.1" 200 8647
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/13/change/ HTTP/1.1" 200 7847
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/ HTTP/1.1" 200 8647
+"GET /admin/ HTTP/1.1" 200 3740
+"GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3740
+"GET /admin/logout/ HTTP/1.1" 200 1529
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9959
+"GET /admin/auth/user/ HTTP/1.1" 200 14599
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/10/change/ HTTP/1.1" 200 20321
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/10/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14809
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/7/change/ HTTP/1.1" 200 20270
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/7/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14819
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/4/change/ HTTP/1.1" 200 20270
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14829
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/auth/user/7/change/ HTTP/1.1" 200 20298
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/auth/user/7/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14829
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/ HTTP/1.1" 200 11140
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/9/change/ HTTP/1.1" 200 10300
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/ HTTP/1.1" 200 11140
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 11663
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/10/change/ HTTP/1.1" 200 10717
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 11663
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/48/change/ HTTP/1.1" 200 15652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 5459
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16449
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/29/change/ HTTP/1.1" 200 11235
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /media/default.jpg HTTP/1.1" 200 1050
+"GET /admin/homeworkapp/product/29/change/ HTTP/1.1" 200 11235
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16449
+"GET /admin/homeworkapp/product/47/change/ HTTP/1.1" 200 11203
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /media/12chair.jpg HTTP/1.1" 200 2896
+"GET /admin/homeworkapp/product/47/change/ HTTP/1.1" 200 11203
+"GET /admin/homeworkapp/product/47/change/ HTTP/1.1" 200 11203
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16449
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 17802
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16449
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16449
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16449
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16449
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15480
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 16484
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 17576
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?o=-1 HTTP/1.1" 200 17609
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 17576
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 16572
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 19012
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 19012
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 19012
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 19012
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 19012
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 19012
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?o=1 HTTP/1.1" 200 19012
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 18154
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 18154
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 18154
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 18156
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 18528
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 11663
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 11663
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 11663
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10677
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 18528
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15425
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?all= HTTP/1.1" 200 19482
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15425
+"GET /admin/homeworkapp/product/?p=2 HTTP/1.1" 200 13370
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?p=1 HTTP/1.1" 200 15971
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15425
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29845
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29948
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 22486
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 24457
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 24563
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25438
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10677
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10677
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25438
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10677
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/client/?q=%D0%9F%D1%83%D1%88%D0%BA HTTP/1.1" 200 9551
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25758
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Internal Server Error: /admin/homeworkapp/order/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/views/main.py", line 99, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/views/main.py", line 476, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1032, in get_search_results
+    queryset = queryset.filter(reduce(operator.or_, or_queries))
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1423, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1442, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1295, in build_filter
+    return self._add_q(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1442, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1377, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1214, in build_lookup
+    raise FieldError('Related Field got invalid lookup: {}'.format(lookup_name))
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/homeworkapp/order/?q=%D0%9F%D1%83%D1%88%D0%BA HTTP/1.1" 500 204993
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25758
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25758
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25758
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/?q=%D1%8B%D0%B2%D0%B0 HTTP/1.1" 200 9190
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/?q=2024 HTTP/1.1" 200 27359
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/?q=March HTTP/1.1" 200 9099
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/?q=03 HTTP/1.1" 200 19875
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/?q=02 HTTP/1.1" 200 27237
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/?q=02 HTTP/1.1" 200 26909
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 18269
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15745
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?q=%D0%B6%D0%B5%D0%BB%D1%82 HTTP/1.1" 200 11580
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25438
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15803
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/homeworkapp/product/ HTTP/1.1" 302 0
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15800
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?all= HTTP/1.1" 200 19903
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/?all= HTTP/1.1" 200 19938
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/26/change/?_changelist_filters=all%3D HTTP/1.1" 200 11302
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/?all= HTTP/1.1" 200 19938
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25438
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 25438
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/16/change/ HTTP/1.1" 200 11203
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/7/change/ HTTP/1.1" 200 10526
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/6/change/ HTTP/1.1" 200 10981
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28603
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Internal Server Error: /admin/homeworkapp/order/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/views/main.py", line 99, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/views/main.py", line 476, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1032, in get_search_results
+    queryset = queryset.filter(reduce(operator.or_, or_queries))
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1423, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1442, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1295, in build_filter
+    return self._add_q(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1442, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1316, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1142, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1569, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'client_name' into field. Choices are: client, client_id, created, id, products
+"GET /admin/homeworkapp/order/?q=%D0%9F%D1%83%D1%88%D0%BA HTTP/1.1" 500 207554
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1697, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 736, in get_changelist_instance
+    return ChangeList(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/views/main.py", line 99, in __init__
+    self.queryset = self.get_queryset(request)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/views/main.py", line 476, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1032, in get_search_results
+    queryset = queryset.filter(reduce(operator.or_, or_queries))
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1423, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1442, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1295, in build_filter
+    return self._add_q(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1442, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1377, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/query.py", line 1214, in build_lookup
+    raise FieldError('Related Field got invalid lookup: {}'.format(lookup_name))
+django.core.exceptions.FieldError: Related Field got invalid lookup: icontains
+"GET /admin/homeworkapp/order/?q=%D0%9F%D1%83%D1%88%D0%BA HTTP/1.1" 500 205093
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+"GET /admin/homeworkapp/order/?q=%D0%9F%D1%83%D1%88%D0%BA HTTP/1.1" 200 15186
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/gameapp/coin/ HTTP/1.1" 200 29096
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/ HTTP/1.1" 200 11140
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/13/change/ HTTP/1.1" 200 10340
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/blogapp/author/ HTTP/1.1" 200 11140
+"GET /admin/gameapp/coin/ HTTP/1.1" 200 29096
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/16/change/ HTTP/1.1" 200 15281
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/16/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/16/change/ HTTP/1.1" 500 135187
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+Internal Server Error: /admin/homeworkapp/order/49/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/49/change/ HTTP/1.1" 500 134860
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/14/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client__name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client__name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 500 135255
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+Internal Server Error: /admin/homeworkapp/order/16/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/16/change/ HTTP/1.1" 500 135187
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/26/change/ HTTP/1.1" 200 11119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+Internal Server Error: /admin/homeworkapp/order/26/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/26/change/ HTTP/1.1" 500 135055
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+Internal Server Error: /admin/homeworkapp/order/42/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client___name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client___name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/42/change/ HTTP/1.1" 500 135029
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28923
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/26/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client.name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client.name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/26/change/ HTTP/1.1" 500 135055
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/16/change/ HTTP/1.1" 200 15281
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/16/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/16/change/ HTTP/1.1" 500 135136
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+Internal Server Error: /admin/homeworkapp/order/26/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/26/change/ HTTP/1.1" 500 135004
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+Internal Server Error: /admin/homeworkapp/order/14/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 500 135334
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/34/change/ HTTP/1.1" 200 8835
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/26/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client-name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client-name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/26/change/ HTTP/1.1" 500 135202
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/gameapp/coin/ HTTP/1.1" 200 29096
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+"GET /admin/homeworkapp/order/25/change/ HTTP/1.1" 200 11714
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/4/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/4/change/ HTTP/1.1" 500 135366
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+Internal Server Error: /admin/homeworkapp/order/14/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 500 135334
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/49/change/ HTTP/1.1" 200 11337
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/34/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 274, in __new__
+    message = message % (', '.join(missing_fields),
+TypeError: sequence item 0: expected str instance, function found
+"GET /admin/homeworkapp/order/34/change/ HTTP/1.1" 500 128923
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/49/change/ HTTP/1.1" 200 14936
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/gameapp/coin/ HTTP/1.1" 200 29096
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/19/change/ HTTP/1.1" 200 8715
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/14/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (total) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (total) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 500 135283
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 200 11659
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/19/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/19/change/ HTTP/1.1" 500 135196
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/34/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_name) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/34/change/ HTTP/1.1" 500 135370
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/19/change/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 710, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 563, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/lib/python3/dist-packages/django/forms/models.py", line 276, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (ordered_items) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1660, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1574, in _changeform_view
+    ModelForm = self.get_form(
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 712, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (ordered_items) specified for Order. Check fields/fieldsets/exclude attributes of class OrdersAdmin.
+"GET /admin/homeworkapp/order/19/change/ HTTP/1.1" 500 135281
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 200 12440
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/26/change/ HTTP/1.1" 200 12286
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 5230
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+Not Found: /favicon.ico
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/49/change/ HTTP/1.1" 200 12253
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+"GET /admin/homeworkapp/order/19/change/ HTTP/1.1" 200 12521
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/34/change/ HTTP/1.1" 200 12659
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 28805
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 200 15483
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/homeworkapp/order/14/change/ HTTP/1.1" 200 14613
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/9/change/?_to_field=id&_popup=1 HTTP/1.1" 200 4940
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/homeworkapp/order/14/change/ HTTP/1.1" 302 0
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 29201
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/ HTTP/1.1" 200 10997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/client/1/change/ HTTP/1.1" 200 10245
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/14/change/ HTTP/1.1" 200 11000
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
