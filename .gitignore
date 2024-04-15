@@ -1,8 +1,8 @@
-.gitignore
 venv
 gameapp
 homeworkapp/__pycache__
 myproject/__pycache__
 *__pycache__*
 blogapp
-db.sqlite3
+*.sqlite3
+*.log

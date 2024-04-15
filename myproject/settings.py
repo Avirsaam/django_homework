@@ -67,11 +67,11 @@ LOGGING = {
             "handlers": ["console", "file"],
             "level": "INFO",
         },
-        "gameapp": {
-            "handlers": ["console"],
-            "level": "DEBUG",
-            "propagate": True,
-        },
+        # "gameapp": {
+        #     "handlers": ["console"],
+        #     "level": "DEBUG",
+        #     "propagate": True,
+        # },
         "homeworkapp": {
             "handlers": ["console", "file_homework"],
             "level": "DEBUG",
@@ -93,8 +93,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'gameapp',
-    'blogapp', 
+    #'gameapp',
+    #'blogapp', 
     'homeworkapp',
     #'debug_toolbar',   
 ]
