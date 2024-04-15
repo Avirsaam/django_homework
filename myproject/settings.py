@@ -143,8 +143,8 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'avirsaam$default',
-        'USER': 'avirsaam',
+        'NAME': 'avirsaam2024$default',
+        'USER': 'avirsaam2024',
         'PASSWORD': str(os.getenv('MYSQL_PASSWORD')),
         'HOST': 'avirsaam.mysql.pythonanywhere-services.com',
         'OPTIONS': {
