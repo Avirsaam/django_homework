@@ -32,7 +32,7 @@ CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'avirsaam.pythonanywhere.com'
+    'avirsaam2024.pythonanywhere.com'
 ]
 
 LOGGING = {
@@ -82,6 +82,7 @@ LOGGING = {
 
 INTERNAL_IPS=[
     '127.0.0.1',
+    
 ]
 
 # Application definition
