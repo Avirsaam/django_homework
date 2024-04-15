@@ -9801,3 +9801,60 @@ Watching for file changes with StatReloader
 "GET /product/151 HTTP/1.1" 200 15523
 /home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /list_of_categories
+Traceback (most recent call last):
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/fallback.py", line 16, in __init__
+    self.storages = [
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/fallback.py", line 17, in <listcomp>
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/core/signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 98, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+"GET /list_of_categories HTTP/1.1" 500 145
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/fallback.py", line 16, in __init__
+    self.storages = [
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/fallback.py", line 17, in <listcomp>
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/contrib/messages/storage/cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/core/signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/venv/lib/python3.10/site-packages/django/conf/__init__.py", line 98, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+"GET / HTTP/1.1" 500 145
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8568
+"GET /products_by_category/1 HTTP/1.1" 200 54913
