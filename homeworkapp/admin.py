@@ -18,7 +18,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 class ClientAdmin(admin.ModelAdmin):
     list_display = ['name']
-    ordering = ['name']
+    #ordering = ['surname']
     search_fields = ['name']    
     search_help_text = 'Поиск по имени/фамилии'
     readonly_fields = ['created']
@@ -27,7 +27,7 @@ class OrdersAdmin(admin.ModelAdmin):
     list_display = ['created', 'get_name', 'ordered_items',  'total']
     ordering = ['-created']
     list_filter = ['created']
-    search_fields = ['client__name']
+    search_fields = ['get_name']
     search_help_text = 'Поиск по имени/фамилии'
     readonly_fields = ['created']
     

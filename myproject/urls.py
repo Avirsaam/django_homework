@@ -22,7 +22,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('game/', include('gameapp.urls')),
-    path('homework/', include('homeworkapp.urls')),
-    path('blogapp/', include('blogapp.urls')),    
+    path('', include('homeworkapp.urls')),
+    path('blogapp/', include('blogapp.urls')),
+    path('__debug__/', include("debug_toolbar.urls")),    
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

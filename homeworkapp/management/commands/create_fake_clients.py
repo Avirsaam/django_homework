@@ -15,7 +15,8 @@ class Command(BaseCommand):
         
         count = kwargs['count']
         for i in range(count):
-            client = Client(name=f'{choice(names)} {choice(surnames)}', 
+            client = Client(first_name=f'{choice(names)}',
+                            second_name=f'{choice(surnames)}', 
                             email=f'email{i}@example.com', 
                             phone=f'+7-{randint(900, 990)}-{randint(100,999)}-{randint(10,99)}-{randint(10,99)}',
                             address=f'Адрес {i}',

@@ -3,7 +3,7 @@ from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.files.storage import FileSystemStorage
 
-from .models import Client, Product, Order
+from .models import *
 from .forms import ProductEditForm
 from datetime import datetime, timedelta
 import pytz
@@ -15,23 +15,23 @@ logger = logging.getLogger(__name__)
 
 
 
-def index(request):    
-    context = {
-        "title": "Главная страница",
-        "header": "Заголовок главной страницы",
-        "content": "Adipisicing culpa amet enim aute nostrud eiusmod velit aute."
+def index(request):
+    context = {'text_content1': 'Et ipsum elit cillum proident cillum minim commodo elit. Ipsum pariatur sunt quis officia Lorem pariatur aute nisi sunt ad aute. Culpa fugiat voluptate id consequat occaecat officia culpa id do amet consequat. Ad consequat ad Lorem non sunt dolore nisi nostrud reprehenderit reprehenderit enim. In cupidatat excepteur nulla ut irure dolore reprehenderit incididunt tempor non. Ex adipisicing sit et et. Esse aliqua veniam cupidatat elit eu ullamco aute voluptate.',
+            'picture_content1': 'https://dummyimage.com/600x400/000/b3b3b3.png',                        
     }
     logger.debug(f'index page assessed by {request.get_host()}')
-    return render(request, "homeworkapp/simple_template.html", context)
+    return render(request, "homeworkapp/index.html", context)
+    
+
 class AboutView(View):
     def get (self, request):
-        context = {
-            "title": "About",
-            "header": "Обо мне",
-            "content": "Minim quis anim proident minim ex ea do et magna aliqua laboris."
-        }
-        logger.debug(f'"about" page assessed by {request.get_host()}')
-        return render(request, "homeworkapp/simple_template.html", context)
+        address = {'building': '20',
+               'street': 'Проспект Мира',
+               'tel': '+7-987-654-32-11',
+               'email': 'sales@myshop.rr'}
+        context = {'address': address,
+               'shop_photo': 'https://dummyimage.com/600x600/000/b3ff3b3.png'}
+        return render(request, "homeworkapp/about.html", context)
 
 class AllClientsView(View):
     def get(self, request):
@@ -59,6 +59,34 @@ class ProductsByClient(View):
             "days": days
         }
         return render(request, "homeworkapp/all_products_by_client.html", context)
+
+class ListOfCategories(View):
+    def get(self, request):
+        context = {'header': 'Категории товаров',
+               'sub_header': ' ',
+               'category_list': Category.objects.all(),
+               }
+        return render(request, 'homeworkapp/list_of_categories.html', context)
+        
+    
+class ProductsByCategory(View):
+    def get(self, request, category_id):
+        
+        header = 'Товары в категории:'
+        category = Category.objects.filter(pk=category_id).first()
+            
+        context = {'header': header,
+                   'category': category,
+                   'products': Product.objects.filter(category=category).all()
+                }
+        return render(request, 'homeworkapp/products_by_category.html', context)
+    
+class ProductView(View):
+    def get(self, request, product_id):        
+        context = {
+            "product" : Product.objects.filter(pk=product_id).first(),
+        }
+        return render (request, "homeworkapp/product_vew_template.html", context)
     
 class ProductEditView(View):
     form_class = ProductEditForm

@@ -1,29 +1,53 @@
 from django.db import models
 
+
 class Client(models.Model):
-    name = models.CharField(max_length=100)
+    first_name = models.CharField(max_length=64)
+    second_name = models.CharField(max_length=64)
     email = models.EmailField(max_length=254)
     phone = models.CharField(max_length=15)
     address = models.CharField(max_length=254)
-    created = models.DateField()    
+    created = models.DateField()  
     
+    @property
+    def name(self):
+        return f'{self.second_name.capitalize()} {self.first_name.capitalize()}'
+        
     def __str__(self):
         return f'{self.name}, телефон:{self.phone}\n'
     
     def get_total_orders(self):
         return Order.objects.filter(client=self).count()
+
+class Category(models.Model):
+    name = models.CharField(max_length=64)
     
+    def __str__(self):
+        return f'{self.name}'
 
 class Product(models.Model):
     name = models.CharField(max_length=254)
+    color = models.CharField(max_length=64)
     description = models.TextField()
     price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
     last_updated = models.DateField()
     image = models.ImageField(blank=True)
+    rating = models.IntegerField(default=4)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    discount = models.FloatField(default=1)
     
     def __str__(self):
         return f'{self.name.capitalize()}, price: {self.price}, stock: {self.stock}\n'
+    
+    def isSale(self):
+        return self.discount != 1
+    
+    def price_discount(self):
+        return f'{float(self.price) * self.discount:.2f}'
+    
+    def get_rating_stars(self):
+        return range(self.rating)
     
     
 class Order(models.Model):

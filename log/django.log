@@ -7767,3 +7767,2037 @@ Watching for file changes with StatReloader
 "GET /admin/homeworkapp/product/14/change/ HTTP/1.1" 200 11000
 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
 "GET /admin/homeworkapp/product/ HTTP/1.1" 200 15835
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/blogapp/author/ HTTP/1.1" 200 20553
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+Not Found: /favicon.ico
+"GET /admin/homeworkapp/order/ HTTP/1.1" 200 38225
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /__debug__/render_panel/?store_id=ed882b5c86fc43d6a0d65d695156ba24&panel_id=TimerPanel HTTP/1.1" 200 1378
+"GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3686
+"GET /__debug__/render_panel/?store_id=ed882b5c86fc43d6a0d65d695156ba24&panel_id=SQLPanel HTTP/1.1" 200 3298989
+"GET /admin/homeworkapp/order/add/ HTTP/1.1" 200 22964
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+Internal Server Error: /admin/homeworkapp/order/add/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3/dist-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: homeworkapp_order.created
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/sites.py", line 232, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1657, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1540, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1586, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/usr/lib/python3/dist-packages/django/contrib/admin/options.py", line 1099, in save_model
+    obj.save()
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 739, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 776, in save_base
+    updated = self._save_table(
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 881, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/lib/python3/dist-packages/django/db/models/base.py", line 919, in _do_insert
+    return manager._insert(
+  File "/usr/lib/python3/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/lib/python3/dist-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/sql/tracking.py", line 160, in _record
+    return method(sql, params)
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/lib/python3/dist-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3/dist-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3/dist-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: homeworkapp_order.created
+"POST /admin/homeworkapp/order/add/ HTTP/1.1" 500 220296
+"GET /admin/homeworkapp/order/add/ HTTP/1.1" 200 22964
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 11960
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9821
+"GET /static/style.css HTTP/1.1" 200 1357
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 25, in index
+    return render(request, "homeworkapp/simple_template.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+"GET / HTTP/1.1" 500 196539
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /admin/homeworkapp/order/add/ HTTP/1.1" 200 22964
+"GET /admin/homeworkapp/order/add/ HTTP/1.1" 200 22964
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+"GET / HTTP/1.1" 500 176701
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 12982
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+"GET / HTTP/1.1" 500 176701
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+"GET / HTTP/1.1" 500 176538
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' 'index'' from 'url 'index''
+"GET / HTTP/1.1" 500 176476
+"GET / HTTP/1.1" 200 13972
+"GET /static/js/scripts.js HTTP/1.1" 200 318
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 236780
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/assets/favicon.ico HTTP/1.1" 200 23462
+"GET / HTTP/1.1" 200 2
+"GET / HTTP/1.1" 200 2
+"GET / HTTP/1.1" 200 15457
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 15457
+"GET /admin/homeworkapp/order/add/ HTTP/1.1" 200 22964
+"GET / HTTP/1.1" 200 15457
+"GET / HTTP/1.1" 200 15457
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15465
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+"GET /about HTTP/1.1" 200 10161
+Internal Server Error: /about
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base-shop.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 34, in get
+    return render(request, "homeworkapp/about.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base-shop.html
+"GET /about HTTP/1.1" 500 152553
+"GET /about HTTP/1.1" 200 14174
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 15465
+"GET / HTTP/1.1" 200 15463
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/templates/panel.py", line 45, in _request_context_bind_template
+    context = processor(self.request)
+TypeError: global_categories_context() takes 0 positional arguments but 1 was given
+"GET / HTTP/1.1" 500 110175
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/context.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/homeworkapp/order/add/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/lib/python3/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/lib/python3/dist-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/templates/panel.py", line 45, in _request_context_bind_template
+    context = processor(self.request)
+TypeError: global_categories_context() takes 0 positional arguments but 1 was given
+"GET /admin/homeworkapp/order/add/ HTTP/1.1" 500 123639
+Internal Server Error: /admin/homeworkapp/order/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/lib/python3/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/lib/python3/dist-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/templates/panel.py", line 45, in _request_context_bind_template
+    context = processor(self.request)
+TypeError: global_categories_context() takes 0 positional arguments but 1 was given
+"GET /admin/homeworkapp/order/ HTTP/1.1" 500 122388
+Internal Server Error: /admin/blogapp/author/
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/usr/lib/python3/dist-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/usr/lib/python3/dist-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/templates/panel.py", line 45, in _request_context_bind_template
+    context = processor(self.request)
+TypeError: global_categories_context() takes 0 positional arguments but 1 was given
+"GET /admin/blogapp/author/ HTTP/1.1" 500 122356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/templates/panel.py", line 45, in _request_context_bind_template
+    context = processor(self.request)
+TypeError: global_categories_context() takes 0 positional arguments but 1 was given
+"GET / HTTP/1.1" 500 110024
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 1037, in find_library
+    return parser.libraries[name]
+KeyError: 'all_categories'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 1094, in load
+    lib = find_library(parser, name)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 1039, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'all_categories' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+all_categories_tag
+cache
+i18n
+l10n
+log
+static
+tz
+"GET / HTTP/1.1" 500 204422
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14939
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 14937
+"GET / HTTP/1.1" 200 14974
+"GET / HTTP/1.1" 200 14999
+"GET /__debug__/render_panel/?store_id=cbd875a189de4c1db7282c5256bdf3a2&panel_id=RequestPanel HTTP/1.1" 200 2103
+"GET /__debug__/render_panel/?store_id=cbd875a189de4c1db7282c5256bdf3a2&panel_id=SQLPanel HTTP/1.1" 200 115
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/templatetags/all_categories.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14976
+"GET / HTTP/1.1" 200 14974
+"GET / HTTP/1.1" 200 14974
+"GET / HTTP/1.1" 200 14974
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/templatetags/all_categories.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14975
+"GET / HTTP/1.1" 200 14973
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/templatetags/all_categories.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/templatetags/all_categories.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14975
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/templatetags/all_categories.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14975
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/templatetags/all_categories.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14975
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/templatetags/all_categories.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14939
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/denis/.local/lib/python3.10/site-packages/debug_toolbar/panels/templates/panel.py", line 45, in _request_context_bind_template
+    context = processor(self.request)
+TypeError: global_categories_context() takes 0 positional arguments but 1 was given
+"GET / HTTP/1.1" 500 110024
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/context.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14939
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/lib/python3/dist-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/urls/resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'products_by_category' with arguments '('',)' not found. 1 pattern(s) tried: ['products_by_category/(?P<category_id>[0-9]+)\\Z']
+"GET / HTTP/1.1" 500 195846
+"GET / HTTP/1.1" 200 15461
+"GET / HTTP/1.1" 200 15586
+"GET / HTTP/1.1" 200 15586
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/context.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15588
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/context.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15588
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/context.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 23, in index
+    return render(request, "homeworkapp/index.html", context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/lib/python3/dist-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/urls/resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'products_by_category' with no arguments not found. 1 pattern(s) tried: ['products_by_category/(?P<category_id>[0-9]+)\\Z']
+"GET / HTTP/1.1" 500 194612
+"GET / HTTP/1.1" 200 15494
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ProductsByCategory.get() got an unexpected keyword argument 'category_id'
+"GET /products_by_category/1 HTTP/1.1" 500 84217
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15496
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: ProductsByCategory.get() got multiple values for argument 'category_id'
+"GET /products_by_category/1 HTTP/1.1" 500 84209
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15496
+"GET /products_by_category/1 HTTP/1.1" 200 1
+"GET /products_by_category/3 HTTP/1.1" 200 1
+"GET /about HTTP/1.1" 200 14205
+"GET / HTTP/1.1" 200 15494
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 15515
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+Internal Server Error: /list_of_categories
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 69, in get
+    return render(request, 'homeworkapp/list_of_categories.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp/list_of_categories.html
+"GET /list_of_categories HTTP/1.1" 500 105819
+Internal Server Error: /list_of_categories
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 69, in get
+    return render(request, 'homeworkapp/list_of_categories.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp/list_of_categories.html
+"GET /list_of_categories HTTP/1.1" 500 105819
+"GET /list_of_categories HTTP/1.1" 200 17985
+"GET /products_by_category/1 HTTP/1.1" 200 1
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /list_of_categories HTTP/1.1" 200 17987
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 79, in get
+    'sub_header': sub_header,
+NameError: name 'sub_header' is not defined
+"GET /products_by_category/1 HTTP/1.1" 500 88678
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 816, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(prodcuct.rating)' from 'range(prodcuct.rating)'
+"GET /products_by_category/1 HTTP/1.1" 500 221464
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 806, in do_for
+    raise TemplateSyntaxError("'for' statements should use the format"
+django.template.exceptions.TemplateSyntaxError: 'for' statements should use the format 'for x in y': for i in range(prodcuct.rating | int)
+"GET /products_by_category/1 HTTP/1.1" 500 211547
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 816, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(product.rating)' from 'range(product.rating)'
+"GET /products_by_category/1 HTTP/1.1" 500 221445
+"GET /__debug__/render_panel/?store_id=1ba8a6e38128426f89fc8f3617aeebe5&panel_id=RequestPanel HTTP/1.1" 200 2157
+"GET /__debug__/render_panel/?store_id=1ba8a6e38128426f89fc8f3617aeebe5&panel_id=TemplatesPanel HTTP/1.1" 200 164606
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 633, in __init__
+    raise TemplateSyntaxError("Could not parse some characters: "
+django.template.exceptions.TemplateSyntaxError: Could not parse some characters: |(product.price| | float) * (product.discount | float)
+"GET /products_by_category/1 HTTP/1.1" 500 216713
+"GET /products_by_category/1 HTTP/1.1" 200 45752
+"GET /products_by_category/1 HTTP/1.1" 200 49929
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 236780
+"GET /products_by_category/1 HTTP/1.1" 200 50809
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' * 2' from 'product.price * 2'
+"GET /products_by_category/1 HTTP/1.1" 500 217700
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'mul'
+"GET /products_by_category/1 HTTP/1.1" 500 222172
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'mult'
+"GET /products_by_category/1 HTTP/1.1" 500 222187
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 658, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 717, in args_check
+    raise TemplateSyntaxError("%s requires %d arguments, %d provided" %
+django.template.exceptions.TemplateSyntaxError: add requires 2 arguments, 1 provided
+"GET /products_by_category/1 HTTP/1.1" 500 223360
+Not Found: /favicon.ico
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 658, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 717, in args_check
+    raise TemplateSyntaxError("%s requires %d arguments, %d provided" %
+django.template.exceptions.TemplateSyntaxError: add requires 2 arguments, 1 provided
+"GET /products_by_category/1 HTTP/1.1" 500 223354
+"GET /products_by_category/1 HTTP/1.1" 200 50743
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'div'
+"GET /products_by_category/1 HTTP/1.1" 500 222216
+"GET /list_of_categories HTTP/1.1" 200 17985
+"GET /list_of_categories HTTP/1.1" 200 17987
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'sub'
+"GET /products_by_category/1 HTTP/1.1" 500 222198
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py", line 46, in price_discount
+    return self.price * self.discount
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+"GET /products_by_category/1 HTTP/1.1" 500 231398
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_category/1 HTTP/1.1" 200 50922
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_category/1 HTTP/1.1" 200 50786
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /products_by_category/1 HTTP/1.1" 200 53206
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 816, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'times'
+"GET /products_by_category/1 HTTP/1.1" 500 225792
+"GET /products_by_category/1 HTTP/1.1" 200 50786
+Internal Server Error: /products_by_category/1
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 82, in get
+    return render(request, 'homeworkapp/products_by_category.html', context)
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python3/dist-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 170, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+"GET /products_by_category/1 HTTP/1.1" 500 213812
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_category/1 HTTP/1.1" 200 57606
+"GET /products_by_category/1 HTTP/1.1" 200 57540
+"GET /products_by_category/1 HTTP/1.1" 200 57584
+"GET /admin/ HTTP/1.1" 200 19525
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 25320
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /admin/homeworkapp/product/156/change/ HTTP/1.1" 200 23035
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"POST /admin/homeworkapp/product/156/change/ HTTP/1.1" 302 0
+"GET /admin/homeworkapp/product/ HTTP/1.1" 200 25580
+"GET /admin/jsi18n/ HTTP/1.1" 200 3195
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET / HTTP/1.1" 200 15513
+"GET /products_by_category/2 HTTP/1.1" 200 67355
+"GET /products_by_category/4 HTTP/1.1" 200 63888
+Not Found: /products_by_category/Noname.png
+"GET /products_by_category/Noname.png HTTP/1.1" 404 13535
+"GET /products_by_category/4 HTTP/1.1" 200 63888
+Not Found: /products_by_category/Noname.png
+"GET /products_by_category/Noname.png HTTP/1.1" 404 13535
+"GET /products_by_category/4 HTTP/1.1" 200 63888
+Not Found: /products_by_category/Noname.png
+"GET /products_by_category/Noname.png HTTP/1.1" 404 13533
+"GET /products_by_category/4 HTTP/1.1" 200 65681
+"GET /static/example.jpg HTTP/1.1" 404 1792
+"GET /products_by_category/4 HTTP/1.1" 200 65831
+"GET /static/media/default.jpg HTTP/1.1" 404 1810
+"GET /products_by_category/4 HTTP/1.1" 200 65831
+"GET /static/media/default.jpg HTTP/1.1" 404 1810
+"GET /products_by_category/4 HTTP/1.1" 200 65681
+"GET /static/default.jpg HTTP/1.1" 200 1050
+"GET /products_by_category/4 HTTP/1.1" 200 66358
+"GET /static/product.image HTTP/1.1" 404 1798
+"GET /products_by_category/4 HTTP/1.1" 200 63525
+"GET /static/product.image HTTP/1.1" 404 1798
+"GET /products_by_category/4 HTTP/1.1" 200 63523
+"GET /static/default.img HTTP/1.1" 404 1792
+"GET /products_by_category/4 HTTP/1.1" 200 66310
+"GET /static/default.img HTTP/1.1" 404 1792
+"GET /products_by_category/4 HTTP/1.1" 200 66445
+"GET /static/ HTTP/1.1" 404 1767
+"GET /products_by_category/4 HTTP/1.1" 200 66450
+"GET /static/prodcut.image HTTP/1.1" 404 1798
+"GET /products_by_category/4 HTTP/1.1" 200 66450
+"GET /static/product.image HTTP/1.1" 404 1798
+"GET /products_by_category/4 HTTP/1.1" 200 66447
+"GET /static/Noname.png HTTP/1.1" 200 4756
+"GET /products_by_category/4 HTTP/1.1" 200 66260
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/js/scripts.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /static/Noname.png HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products_by_category/4 HTTP/1.1" 200 66560
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/140 HTTP/1.1" 200 3
+"GET /products_by_category/4 HTTP/1.1" 200 66560
+"GET /products_by_category/4 HTTP/1.1" 200 66585
+"GET /static/js/scripts.js HTTP/1.1" 200 318
+"GET /products_by_category/4 HTTP/1.1" 200 69760
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/140 HTTP/1.1" 200 3
+"GET /product/156 HTTP/1.1" 200 3
+"GET /product/156 HTTP/1.1" 200 3
+"GET /product/156 HTTP/1.1" 200 3
+"GET /products_by_category/4 HTTP/1.1" 200 70360
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/139 HTTP/1.1" 200 3
+"GET /product/139 HTTP/1.1" 200 3
+"GET /products_by_category/4 HTTP/1.1" 200 70360
+"GET /product/139 HTTP/1.1" 200 3
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /product/139
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 86, in get
+    return render (request, "product_view_template.html", Product.objects.filter(pk=product_id).first())
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: product_view_template.html
+"GET /product/139 HTTP/1.1" 500 104876
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /product/139
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 86, in get
+    return render (request, "homeworkapp/product_view_template.html", Product.objects.filter(pk=product_id).first())
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: homeworkapp/product_view_template.html
+"GET /product/139 HTTP/1.1" 500 105166
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /product/139
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 86, in get
+    return render (request, "homeworkapp/product_vew_template.html", Product.objects.filter(pk=product_id).first())
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3/dist-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3/dist-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3/dist-packages/django/template/defaulttags.py", line 968, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3/dist-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 14: 'static', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+"GET /product/139 HTTP/1.1" 500 197665
+Internal Server Error: /product/139
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/lib/python3/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py", line 86, in get
+    return render (request, "homeworkapp/product_vew_template.html", Product.objects.filter(pk=product_id).first())
+  File "/usr/lib/python3/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3/dist-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3/dist-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/usr/lib/python3/dist-packages/django/template/context.py", line 268, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than Product.
+"GET /product/139 HTTP/1.1" 500 105494
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /product/139 HTTP/1.1" 200 14823
+"GET /product/139 HTTP/1.1" 200 14823
+"GET /product/140 HTTP/1.1" 200 14823
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /product/139 HTTP/1.1" 200 15725
+"GET /product/139 HTTP/1.1" 200 15733
+"GET /product/156 HTTP/1.1" 200 15663
+"GET /products_by_category/2 HTTP/1.1" 200 75653
+"GET /product/132 HTTP/1.1" 200 15644
+"GET / HTTP/1.1" 200 15513
+"GET /list_of_categories HTTP/1.1" 200 17985
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /list_of_categories HTTP/1.1" 200 17987
+"GET / HTTP/1.1" 200 17969
+"GET /products_by_category/2 HTTP/1.1" 200 75653
+"GET /products_by_category/3 HTTP/1.1" 200 73591
+"GET /about HTTP/1.1" 200 14224
+"GET /about? HTTP/1.1" 200 14224
+"GET /list_of_categories HTTP/1.1" 200 17985
+"GET /products_by_category/3 HTTP/1.1" 200 73591
+"GET /product/151 HTTP/1.1" 200 15523
+/home/denis/Documents/GeekBrains/025_Django/django_seminars/homeworkapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
